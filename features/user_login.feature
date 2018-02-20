@@ -4,7 +4,7 @@ Feature: User can login
   There should be a login-form on the site
 
   Background:
-    Given user has a mailbox
+    Given I am logged in as 'Aiden'
 
   Scenario: User visits page
     When the user visits the 'landing page'
